@@ -5,6 +5,7 @@ const resetButton = document.querySelector("#resetbutton");
 const results = document.querySelector("#results");
 
 let round = 1;
+let firrom =4;
 
 function startGame() {
     const name = nameInput.value.trim();
